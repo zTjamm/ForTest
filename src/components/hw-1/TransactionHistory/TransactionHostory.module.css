@@ -1,0 +1,24 @@
+.table {
+    margin: 50px auto;
+    border: 1px solid black;
+
+}
+.headItems {
+    background: #54aeff;
+}
+.headItems th {
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 250px;
+}
+.tBody td{
+    color: black;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px darkgrey;
+    height: 50px;
+    width: 190px;
+}
+.tBody tr:nth-child(2n){
+    background: rgba(209, 213, 218, 0.5);
+}

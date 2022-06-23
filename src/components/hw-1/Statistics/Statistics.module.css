@@ -1,0 +1,29 @@
+.wrapper{
+    width: 600px;
+    margin: 25px auto;
+    padding: 100px;
+    background: #b6e3ff;
+}
+.statistics{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.title{
+    text-transform: uppercase;
+    background: white;
+    height: 100%;
+    line-height: 4em;
+    /*margin: 20px 0;*/
+}
+.statList {
+    display: flex;
+}
+.statList li {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/4);
+    border: 1px solid black;
+    padding: 5px;
+    color: white;
+}
