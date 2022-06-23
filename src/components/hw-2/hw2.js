@@ -1,10 +1,12 @@
 import React from "react";
+import s from "./hw2.module.css"
 import {NavLink} from 'react-router-dom';
+
 
 export default function Hw2() {
         return(
-                <div>
-                    <NavLink to="/hw2/feedback">FeedBack</NavLink>
+                <div className={s.wrapper}>
+                    <NavLink className={s.hw2Btn} to="/hw2/feedback">FeedBack</NavLink>
                 </div>
         )
 }
