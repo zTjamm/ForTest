@@ -1,0 +1,22 @@
+.item{
+    border: 1px solid black;
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.items{
+    border: 1px solid red;
+    flex-basis: calc(100%/4);
+    flex-shrink: 1;
+    margin: 5px;
+    padding: 10px;
+}
+.items:nth-child(2n-1){
+    /*flex-grow: 1;*/
+}
+.itemSize {
+    flex-grow: 1;
+}

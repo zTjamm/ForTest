@@ -33,3 +33,6 @@
   left: 150px;
   transition: .5s ease-in-out;
 }
+.itemSize {
+  flex-grow: 1;
+}
